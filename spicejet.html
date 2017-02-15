@@ -1,0 +1,175 @@
+<html>
+	<head>
+	<title></title>
+
+		<script src="jquery.min.js"></script>
+		<script src="spicejet.js"></script>
+		<script src="jquery-ui-custom/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="jquery-ui-custom/jquery-ui.min.css"></link>
+		<!-- <link rel="stylesheet" type="text/css" href="jquery-ui-custom/jquery-ui.theme.min.css"></link> -->
+		<link rel="stylesheet" type="text/css" href="spicejet.css"></link>
+	</head>
+	<body>
+		
+		<table width="80%" align="center" resizable>
+			<tr id="header">
+				<td><h1 id="logo">SpiceJet</h1>
+					<div id="headerRight">
+						<div id="headerRightTop">
+							<span id="callMessage">
+								Call Center(24/7)
+							</span>
+							<span id="numbers">From outside India:+91 987 180 3333 <pre style="display:inline"> </pre>+91 965 400 3333<br>From within India:0987 180 3333 0965 400 3333</span>
+							
+						</div><br>
+						<div id="menus">
+							<ul id="menuList">
+								<li>Home</li>
+								<li>About Us
+								<ul>
+									<li>careers</li>
+									<li>cargo</li>
+									<li>charter request</li>
+									<li>Corporate Overview</li>
+									<li>Fleet</li>
+									<li>Spice route magzine</li>
+								</ul></li>
+					<li>Contact Us
+						<ul>
+							<li> Corporate Head office</li>
+							<li> Spice airports</li>
+							<li> Spice City interanation office</li>
+						</ul>
+					</li>
+					<li>Investors
+					<ul>
+						<li>Corporate Governance</li>
+						<li>Financial Information</li>
+						<li>notices</li>
+						<li>outcome of AGM</li>
+						<li>Press release and news</li>
+						<li>Shareholding pattern</li>
+						<li>Contact information</li>
+					</ul></li>
+					<li>SpiceAdd-ons
+					<ul>
+						<li>Domestic</li>
+						<li>Indian Armed Forces</li>
+						<li>In flight meals</li>
+						<li>SBI card</li>
+						<li>student discount</li>
+					</ul></li>
+					<!-- <li>Special Offers
+						<ul>
+							<li>Friends and family</li>
+							<li>Spice jet share love</li>
+							<li>UAE visa</li>
+						</ul></li>
+					<li>Travel Info>
+						<ul>
+							<li>Carriage of live animals</li>
+							<li>citizens charter</li>
+							<li>FAQS</li>
+							<li>Special Assistance</li>
+							<li>Terms of carriage</li>
+						</ul></li> -->
+					<li>Login
+						<ul>
+							<li>Admin Login
+							<li>MySpice trip Login </li>
+							<li>Corporate Login</li>
+							<li>Corporate Login(Beta)</li>
+						</ul></li>
+				</ul>
+						</div>
+					</div>
+					<img style="float:right;margin:0% 1% -1% 1%" src="spicejet-img.jpg">
+				</td>
+			</tr>
+			<tr>
+				<td id="body">
+					<div style="width:35%">
+					<div id="tabs" style="">
+						<ul>
+							<li><a href="#tab1">Flight<br>&nbsp;</a></li>
+							<li><a href="#tab2">Flight<br>+Hotel</a></li>
+							<li><a href="#tab3">Manage My<br> Booking</a></li>
+							<li><a href="#tab4">Web <br> Check-in</a></li>
+						</ul>
+						<div id="tab1">
+							<div class="tabBoxheader">Bookings open till 24th October 2015</div>
+							<!-- <div id="pnrHelp">Confirmation Number(PNR)</div>
+							<hr>
+							Option 1:
+							<input type="text" placeholder="Email"><br>
+							<hr style="margin-left:20%;float:left;border-top:dotted" width=20% align="left">OR<hr style="margin-right:33%;float:right;border-top:dotted" width=20%>
+							<br> -->
+							<input type="radio" name="trip" value="round" id="two">Round Trip
+							<input type="radio" name="trip" value="one" id="one">One Way
+							
+							<br>
+							<input type="text" placeholder="Leaving From..." id="leave">
+							<input type="text" placeholder="Going to.." id="go">
+							
+							<br>
+							<input type="date" id="LeaveDate">
+							<input type="date" ="comeDate.." id="comeDate">
+
+							<br>
+							<input type="number" id="adultCount">
+							<input type="number" id="childCount">
+							<input type="number" id="infantCount">
+
+							<br>
+							<table>
+								<tr><td>
+							<input type="checkbox" id="IAF" title="Applicable for all serving and retired Indian Armed Forces personnel, Paramilitary Forces personnel and their dependent families. Limited inventory available. Valid photo ID and relevant military card need to be presented for verification at check-in. Conditions apply.">Indian Armed Forces</td><td>
+							<input type="checkbox" id="student" title="Applicable for all students above the age of 12 years studying with a bonafide school/university. Limited inventory available. Valid photo ID and educational institute I-card need to be presented for verification at check-in. Bookings under this offer are non-refundable; only date changes permitted. Conditions apply.">Student</td></tr>
+							<tr><td>
+							<input type="checkbox" id="voucher" title="Please select this check box if you wish to utilise an On-Time Guarantee voucher towards payment for this booking.">On-Time Guarantee Voucher</td><td>
+							<input type="checkbox" id="FNF" title="Family and Friends discount is applicable for a minimum of four passenger (excluding infant) on a single booking. Terms and conditions apply.">family and Friends</td></tr>
+						</table>
+
+							<br><center>
+							<input type="button" value="Find Flights" id="mybutton"></center>
+
+						</div>
+						<div id="tab2">
+							Please provide information for all fields for any of the options below.</br>
+						    <input type="text" placeholder="Confirmation Number(PNR)" id="PNR" title="Confirmation Number(PNR> located on your itinerary"></br>
+						    <hr>
+						    Option 1:
+						    </center><input type="email" placeholder="Email" id="emailoption1" title="Contact email id used for booking"></br>
+						    - - - - - - - - - - OR - - - - - - - - - -</center></br>
+						    Option 2:
+						    <section id="Option2">
+						      <input type="text" id="fname" placeholder="First Name" title="First name of any passanger on your itinerary">
+						      <input type="text" id="lname" placeholder="Last Name" title="Surname of the same passenger"></br>
+						       <input type="text" id="origincity" placeholder="Origin City" title="City you are leaving from">
+						      <input type="text" id="destinationcity" placeholder="Destination City" title="Final destination city"></br>
+						      Enter your Confirmation Number (PNR) and click the Email Itinerary button to receive your itinerary.</br>
+						      <input type="button" value="Retrieve Booking" id="retirevebooking">
+						      <input type="button" value="Email Itinerary" id="emailitinerary">
+
+						</div>
+						<div id="tab3"></div>
+						<div id="tab4"></div>
+					</div>
+				</div>
+
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<marquee id="info">
+						
+					</marquee>
+				</td>
+			</tr>
+
+		</table>
+	
+		<div id="city" title="India"></div>
+		<div id="gocity" title="India"></div>
+	</body>
+</html>

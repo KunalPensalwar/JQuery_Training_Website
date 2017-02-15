@@ -1,0 +1,36 @@
+#header{background-color: red}
+#logo{float:left;margin-left:1%;font-style:italic;color:white;}
+#headerRight{width:80%;float:left;color:white;padding:0.7%;margin-left:2%;padding-bottom: 0px}
+#callMessage,#numbers{float:left;display:block;}
+#callMessage{border-right: 2px solid orange;height: 1.5em;padding-top: 9px;
+			padding-right: 10px;display: block;margin-right: 10px;}
+/*#menuList{list-style-type:none;width:80%;padding:0px !important;}*/
+#menuList li{display: inline !important;float:left !important;margin-left:2% !important;margin-top:-8px !important}
+#menuList{list-style-type: none;
+width: 80%;
+padding: 0px !important;border-top-left-radius: 69PX;background-color: transparent;font-size: medium;border: none;margin-top: 10px;}
+.ui-widget{background: none !important}
+#menuList li ul {background-color: rgb(237, 233, 233) !important;width: 226%;}
+#menuList li ul li{width: 90%;
+padding: 4%;}
+#headerRightTop{margin-left:46%;}
+.ui-tooltip{background-color:rgb(237, 233, 233)  !important;}
+.ui-dialog{background-color:rgb(237, 233, 233)  !important;}
+#menus{margin-left:10%;border-top:2px solid white;display:inline-flex;width:90%;padding:0px !important;background-color:rgb(247, 85, 41);
+		border-left:2px solid white;border-right:2px solid white;border-top-right-radius:43px;border-top-left-radius:43px;margin-top:5px;}
+#header{padding-bottom:0px !important;}
+#body{background:url("spicejet-body.jpg") no-repeat;background-size: cover;}
+#tabs li{width:23%;font-size:0.7em;}
+#tab1 input[type=text]{width:48%; margin:2% 0;border-radius:5px;}
+#tab1 input[type=date]{width:48%; margin:2% 0;border-radius:5px;}
+#tab1 input[type=number]{width:28%;margin:2% 0;border-radius:5px}
+#tab1 input[type=radio]:last-child{margin:4% 3%;}
+#tab1 input[type=radio]:first-child{margin:4% 0%;}
+#tab1 {background-color:rgb(237, 233, 233);}
+#tabs{margin:3%;}
+#cities{position:absolute;}
+#tab1,#tab2,#tab3,#tab4{font-size:medium;height:342px;}
+.tabBoxheader{font-size: small;margin-bottom:10px;}
+#info{background-color:rgb(199, 199, 199); padding:0.5%;}
+body{background: -webkit-radial-gradient(rgb(255, 131, 0),white);}
+#mybutton:hover{background-color:#dadada !important;}
